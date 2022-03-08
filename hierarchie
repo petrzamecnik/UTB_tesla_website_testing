@@ -35,38 +35,48 @@ pass - testThisTesla1234
         TC_002 - pokus o přihlášení se špatným uživatelským jménem / emailem
         TC_003 - pokus o přihlášení se špatným uživatelským heslem
         TC_004 - pokus o přihlášení bez přihlaśovacích údajů
+        TC_005 - kontrola minimální délky hesla
+        TC_006 - kontrola maximální délky hesla
+        TC_007 - kontrola minimální délky emailu
+        TC_008 - kontrola maximální délky emailu
 
     TS_003 - testování navigace v menu
         TS_001 - testování konfigurace "Model S"
-            TC_001 -
-            TC_002 -
-            TC_003 -
-            TC_004 -
-            TC_005 -
+            TC_001 - přepínání obrázků ( slideshow ) pomocí šipek
+            TC_002 - možnost přepínání mezi modely pomocí tlačítek
+            TC_003 - funkčnost tlačítka "LEARN MORE"
+            TC_004 - funkčnost tlačítka "Order Now"
+            TC_005 - přepínání animací pomocí tlačítek "Navigate on Autopilot", "Auto Lane Change", "Summon", "Autopark"
         TS_002 - testování konfigurace "Model 3"
-            TC_001 -
-            TC_002 -
-            TC_003 -
-            TC_004 -
-            TC_005 -
+            TC_001 - funkčnost tlačítka "LEARN MORE"
+            TC_002 - funkčnost tlačítka "Order Now"
+            TC_003 - přepínání zobrazení specifikací pomocí tlačítek "Performance", "Long Range AWD", "Rear-Wheel Drive"
+            TC_004 - funkčnost tlačítka "Expand List"
+            TC_005 - funkčnost tlačítka "Compare"
         TS_003 - testování konfigurace "Model X"
-            TC_001 -
-            TC_002 -
-            TC_003 -
-            TC_004 -
-            TC_005 -
+            TC_001 - přepínání obrázků ( slideshow ) pomocí šipek
+            TC_002 - možnost přepínání mezi modely pomocí tlačítek
+            TC_003 - funkčnost tlačítka "LEARN MORE"
+            TC_004 - funkčnost tlačítka "Order Now"
+            TC_005 - přepínání animací pomocí tlačítek "Navigate on Autopilot", "Auto Lane Change", "Summon", "Autopark"
         TS_004 - testování konfigurace "Model Y"
-            TC_001 -
-            TC_002 -
-            TC_003 -
-            TC_004 -
-            TC_005 -
+            TC_001 - funkčnost tlačítka "LEARN MORE"
+            TC_002 - funkčnost tlačítka "Order Now"
+            TC_003 - přepínání zobrazení specifikací pomocí tlačítek "Performance" a "Long Range AWD"
+            TC_004 - funkčnost tlačítka "Expand List"
+            TC_005 - funkčnost tlačítka "Compare"
         TS_005 - testování stránky "Account"
-            TC_001 -
-            TC_002 -
-            TC_003 -
-            TC_004 -
-            TC_005 -
+            TS_001 - kontrola funkčnosti odkazů
+                TC_001 - test funkčnosti odkazu "Dashboard"
+                TC_002 - test funkčnosti odkazu "Profile Settings"
+                TC_003 - test funkčnosti odkazu "Payment Method"
+                TC_004 - test funkčnosti odkazu "Charging"
+                TC_005 - test funkčnosti odkazu "Loot Box"
+                TC_006 - test funkčnosti odkazu "Order History"
+                TC_007 - test funkčnosti odkazu "Sign Out"
+            TS_002 - testování změny uživatelských údajů
+
+
         TS_006 - testování stránky "Shop"
             TC_001 -
             TC_002 -
