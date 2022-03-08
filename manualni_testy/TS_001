@@ -4,7 +4,7 @@ Pre-conditions
     -> připojení k internetu
     -> internetový prohlížeč
     -> zařízení pro vstup ( myš, trackpad )
-    -> je vhodné vyčistit cache a cookies prohlížeče
+    -> je vhodné před každým testem vyčistit cache a cookies prohlížeče
     -> je předpokládáno, že pro každý test se nacházíme na stránce "https://www.tesla.com"
 
 
