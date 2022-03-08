@@ -9,7 +9,7 @@ ${url}  https://www.tesla.com
 
 *** Test Cases ***
 TC_001 - kontrola zda se po kliknutí na odkaz "Model S" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Model S']
@@ -17,7 +17,7 @@ TC_001 - kontrola zda se po kliknutí na odkaz "Model S" otevře správná strá
 
 
 TC_002 - kontrola zda se po kliknutí na odkaz "Model 3" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Model 3']
@@ -25,7 +25,7 @@ TC_002 - kontrola zda se po kliknutí na odkaz "Model 3" otevře správná strá
 
 
 TC_003 - kontrola zda se po kliknutí na odkaz "Model X" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Model X']
@@ -33,7 +33,7 @@ TC_003 - kontrola zda se po kliknutí na odkaz "Model X" otevře správná strá
 
 
 TC_005 - kontrola zda se po kliknutí na odkaz "Solar Roof" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Solar Roof']
@@ -41,7 +41,7 @@ TC_005 - kontrola zda se po kliknutí na odkaz "Solar Roof" otevře správná st
 
 
 TC_006 - kontrola zda se po kliknutí na odkaz "Solar Panels" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Solar Panels']
@@ -49,7 +49,7 @@ TC_006 - kontrola zda se po kliknutí na odkaz "Solar Panels" otevře správná 
 
 
 TC_007 - kontrola zda se po kliknutí na odkaz "Existing Inventory" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Existing Inventory']
@@ -58,7 +58,7 @@ TC_007 - kontrola zda se po kliknutí na odkaz "Existing Inventory" otevře spr�
 
 
 TC_008 - kontrola zda se po kliknutí na odkaz "Used Inventory" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Menu']
@@ -67,7 +67,7 @@ TC_008 - kontrola zda se po kliknutí na odkaz "Used Inventory" otevře správn�
 
 
 TC_009 - kontrola zda se po kliknutí na odkaz "Trade-In" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Menu']
@@ -76,7 +76,7 @@ TC_009 - kontrola zda se po kliknutí na odkaz "Trade-In" otevře správná str�
 
 
 TC_010 - kontrola zda se po kliknutí na odkaz "Test Drive" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Menu']
@@ -85,7 +85,7 @@ TC_010 - kontrola zda se po kliknutí na odkaz "Test Drive" otevře správná st
 
 
 TC_011 - kontrola zda se po kliknutí na odkaz "Powerwall" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Menu']
@@ -94,7 +94,7 @@ TC_011 - kontrola zda se po kliknutí na odkaz "Powerwall" otevře správná str
 
 
 TC_012 - kontrola zda se po kliknutí na odkaz "Commercial Energy" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Menu']
@@ -103,7 +103,7 @@ TC_012 - kontrola zda se po kliknutí na odkaz "Commercial Energy" otevře sprá
 
 
 TC_013 - kontrola zda se po kliknutí na odkaz "Utilities" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Menu']
@@ -112,7 +112,7 @@ TC_013 - kontrola zda se po kliknutí na odkaz "Utilities" otevře správná str
 
 
 TC_014 - kontrola zda se po kliknutí na odkaz "Charging" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Menu']
@@ -121,7 +121,7 @@ TC_014 - kontrola zda se po kliknutí na odkaz "Charging" otevře správná str�
 
 
 TC_015 - kontrola zda se po kliknutí na odkaz "Find Us" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Menu']
@@ -130,7 +130,7 @@ TC_015 - kontrola zda se po kliknutí na odkaz "Find Us" otevře správná strá
 
 
 TC_016 - kontrola zda se po kliknutí na odkaz "Support" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Menu']
@@ -139,7 +139,7 @@ TC_016 - kontrola zda se po kliknutí na odkaz "Support" otevře správná strá
 
 
 TC_017 - kontrola zda se po kliknutí na odkaz "Investor Relations" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Menu']
@@ -147,8 +147,9 @@ TC_017 - kontrola zda se po kliknutí na odkaz "Investor Relations" otevře spr�
     close all browsers
 
 
+
 TC_018 - kontrola zda se po kliknutí na odkaz "Shop" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Shop']
@@ -156,11 +157,14 @@ TC_018 - kontrola zda se po kliknutí na odkaz "Shop" otevře správná stránka
 
 
 TC_019 - kontrola zda se po kliknutí na odkaz "Account" otevře správná stránka
-    set selenium speed  1
+    set selenium speed  0.1
     create webdriver    Chrome
     go to   ${url}
     click element   //span[normalize-space()='Account']
     close all browsers
+
+
+TC_020 - test
 
 
 
