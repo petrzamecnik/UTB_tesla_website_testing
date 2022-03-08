@@ -1,0 +1,21 @@
+ID -> TS_001
+Název -> testování navigace pomocí odkazů
+Pre-conditions
+    -> připojení k internetu
+    -> internetový prohlížeč
+    -> zařízení pro vstup ( myš, trackpad )
+    -> je vhodné vyčistit cache a cookies prohlížeče
+    -> je předpokládáno, že pro každý test se nacházíme na stránce "https://www.tesla.com"
+
+
+TC_001 - kontrola zda se po kliknutí na odkaz "Model S" otevře správná stránka
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Model S"
+    3. jsme přesměrováni na adresu */models
+
+
+TC_002 - kontrola zda se po kliknutí na odkaz "Model 3" otevře správná stránka
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Model 3"
+    3. jsme přesměrováni na adresu */model3
+
