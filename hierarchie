@@ -1,24 +1,29 @@
 TS - test suite
 TC - test case
 
+email - petrz.zamecnik@seznam.cz
+pass - testThisTesla1234
+
+
 001 - Testovani webove stranky ( https://www.tesla.com )
     TS_001 - testování navigace pomocí odkazů
-        TC_001 -
-        TC_002 -
-        TC_003 -
-        TC_004 -
-        TC_005 -
-        TC_006 -
-        TC_007 -
-        TC_008 -
-        TC_009 -
-        TC_010 -
-        TC_011 -
+        TC_001 - kontrola zda se po kliknutí na odkaz "Model S" otevře správná stránka
+        TC_002 - kontrola zda se po kliknutí na odkaz "Model 3" otevře správná stránka
+        TC_003 - kontrola zda se po kliknutí na odkaz "Model X" otevře správná stránka
+        TC_004 - kontrola zda se po kliknutí na odkaz "Model Y" otevře správná stránka
+        TC_005 - kontrola zda se po kliknutí na odkaz "Existing Inventory" otevře správná stránka
+        TC_006 - kontrola zda se po kliknutí na odkaz "Used Inventory" otevře správná stránka
+        TC_007 - kontrola zda se po kliknutí na odkaz "Charging" otevře správná stránka
+        TC_008 - kontrola zda se po kliknutí na odkaz "Test Drive" otevře správná stránka
+        TC_009 - kontrola zda se po kliknutí na odkaz "Support" otevře správná stránka
+        TC_010 - kontrola zda se po kliknutí na odkaz "Shop" otevře správná stránka
+        TC_011 - kontrola zda se po kliknutí na odkaz "Account" otevře správná stránka
 
     TS_002 - testování přihlášení
         TC_001 - pokus o přihlášení se správnými přihlašovacími údaji
         TC_002 - pokus o přihlášení se špatným uživatelským jménem / emailem
-        TC_003 - pokus o přihlášení se špatným uživatelským jménem / emailem
+        TC_003 - pokus o přihlášení se špatným uživatelským heslem
+        TC_004 - pokus o přihlášení bez přihlaśovacích údajů
 
     TS_003 - testování navigace v menu
         TS_001 - testování konfigurace "Model S"
