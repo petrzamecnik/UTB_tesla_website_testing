@@ -40,7 +40,7 @@ pass - testThisTesla1234
         TC_007 - kontrola minimální délky emailu
         TC_008 - kontrola maximální délky emailu
 
-    TS_003 - testování navigace v menu
+    TS_003 - testování navigace v jednotlivých částech menu
         TS_001 - testování konfigurace "Model S"
             TC_001 - přepínání obrázků ( slideshow ) pomocí šipek
             TC_002 - možnost přepínání mezi modely pomocí tlačítek
