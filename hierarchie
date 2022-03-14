@@ -28,7 +28,7 @@ pass - testThisTesla1234
             TC_018 - kontrola zda se po kliknutí na odkaz "Shop" otevře správná stránka
             TC_019 - kontrola zda se po kliknutí na odkaz "Account" otevře správná stránka
             TC_000 - kontrola zda se po kliknutí na odkaz "More" zobrazí další možnosti
-        TC_020 - MORE???
+
 
     TS_002 - testování přihlášení
         TC_001 - pokus o přihlášení se správnými přihlašovacími údaji
@@ -39,6 +39,9 @@ pass - testThisTesla1234
         TC_006 - kontrola maximální délky hesla
         TC_007 - kontrola minimální délky emailu
         TC_008 - kontrola maximální délky emailu
+        TC_009 - několika násobný pokus o přihlášení se špatnými uživatelskými údaji
+        TC_010 - kontrola zda po odhlášení a následné vrácení zpět, je uživatel opravdu odhlášen
+
 
     TS_003 - testování navigace v jednotlivých částech menu
         TS_001 - testování konfigurace "Model S"
