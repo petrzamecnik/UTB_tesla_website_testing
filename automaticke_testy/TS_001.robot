@@ -8,6 +8,7 @@ ${ProhlizecChrome}  Chrome
 ${url}  https://www.tesla.com
 
 
+
 # Open Browser ${url} ${prohlizec}
 # browsers, urls, xpaths(btns, inputs...), values
 
