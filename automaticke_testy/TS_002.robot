@@ -5,7 +5,6 @@ Resource    urls.robot
 
 *** Variables ***
 ${ProhlizecChrome}  Chrome
-#${url_root}  https://www.tesla.com
 ${email}    petrz.zamecnik@seznam.cz
 ${passwd}   testThisTesla1234
 
@@ -17,5 +16,5 @@ ${passwd}   testThisTesla1234
 TC_001
     set selenium speed  0.1
     create webdriver    ${ProhlizecChrome}
-    go to   ${urls.robot}
+    go to   ${url_root}
     close all browsers
