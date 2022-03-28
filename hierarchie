@@ -30,17 +30,20 @@ pass - testThisTesla1234
             TC_000 - kontrola zda se po kliknutí na odkaz "More" zobrazí další možnosti
 
 
-    TS_002 - testování přihlášení
-        TC_001 - pokus o přihlášení se správnými přihlašovacími údaji
-        TC_002 - pokus o přihlášení se špatným uživatelským jménem / emailem
-        TC_003 - pokus o přihlášení se špatným uživatelským heslem
-        TC_004 - pokus o přihlášení bez přihlaśovacích údajů
-        TC_005 - kontrola minimální délky hesla
-        TC_006 - kontrola maximální délky hesla
-        TC_007 - kontrola minimální délky emailu
-        TC_008 - kontrola maximální délky emailu
-        TC_009 - několika násobný pokus o přihlášení se špatnými uživatelskými údaji
-        TC_010 - kontrola zda po odhlášení a následné vrácení zpět, je uživatel opravdu odhlášen
+    TS_002 - testování přihlášení a registrace
+        TS_002_A
+            TC_001 - pokus o přihlášení se správnými přihlašovacími údaji
+            TC_002 - pokus o přihlášení bez přihlaśovacích údajů
+            TC_003 - pokus o přihlášení s neplatnými přihlašovacími údaji
+            TC_004 - několika násobný pokus o přihlášení se špatnými uživatelskými údaji
+            TC_005 - kontrola zda po odhlášení a následné vrácení zpět, je uživatel opravdu odhlášen
+
+        TS_002_B
+            TC_001 - pokus o registraci bez zadání jména, příjmení, emailu, hesla
+            TC_002 - pokus o registraci se zadáním validního jména, příjmení, emailu, hesla
+            TC_003 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 2 znaky
+            TC_004 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 16 znaků
+            TC_005 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 32 znaků
 
 
     TS_003 - testování navigace v jednotlivých částech menu

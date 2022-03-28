@@ -11,13 +11,13 @@ Pre-conditions
 TC_001 - kontrola zda se po kliknutí na odkaz "Model S" otevře správná stránka
     1. nacházíme se na webové stránce "https://www.tesla.com"
     2. klikneme na tlačítko "Model S"
-    3. jsme přesměrováni na adresu */models
+    3. jsme přesměrováni na adresu https://www.tesla.com/models
 
 
 TC_002 - kontrola zda se po kliknutí na odkaz "Model 3" otevře správná stránka
     1. nacházíme se na webové stránce "https://www.tesla.com"
     2. klikneme na tlačítko "Model 3"
-    3. jsme přesměrováni na adresu */model3
+    3. jsme přesměrováni na adresu https://www.tesla.com/model3
 
 
 TC_003 - kontrola zda se po kliknutí na odkaz "Model X" otevře správná stránka
