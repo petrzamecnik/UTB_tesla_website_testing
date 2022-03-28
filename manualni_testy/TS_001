@@ -1,124 +1,138 @@
-ID -> TS_001
-Název -> testování navigace pomocí odkazů
+ID - TS_001
+Název - testování navigace pomocí odkazů
+Popis - testujeme navigaci pomocí odkazů na stránce http://www.tesla.com
 Pre-conditions
-    -> připojení k internetu
-    -> internetový prohlížeč
-    -> zařízení pro vstup ( myš, trackpad )
-    -> je vhodné před každým testem vyčistit cache a cookies prohlížeče
-    -> je předpokládáno, že pro každý test se nacházíme na stránce "https://www.tesla.com"
+    1. připojení k internetu
+    2. internetový prohlížeč
+    3. zařízení pro vstup ( myš, trackpad )
+    4. je vhodné před každým testem vyčistit cache a cookies prohlížeče
+    5. je předpokládáno, že pro každý test se nacházíme na stránce "https://www.tesla.com"
 
 
 TC_001 - kontrola zda se po kliknutí na odkaz "Model S" otevře správná stránka
     1. nacházíme se na webové stránce "https://www.tesla.com"
     2. klikneme na tlačítko "Model S"
     3. jsme přesměrováni na adresu https://www.tesla.com/models
-
+    4. test proběhl úspěšně
 
 TC_002 - kontrola zda se po kliknutí na odkaz "Model 3" otevře správná stránka
     1. nacházíme se na webové stránce "https://www.tesla.com"
     2. klikneme na tlačítko "Model 3"
     3. jsme přesměrováni na adresu https://www.tesla.com/model3
-
+    4. test proběhl úspěšně
 
 TC_003 - kontrola zda se po kliknutí na odkaz "Model X" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Model X"
+    3. jsme přesměrováni na adresu https://www.tesla.com/modelx
+    4. test proběhl úspěšně
 
 TC_004 - kontrola zda se po kliknutí na odkaz "Model Y" otevře správná stránka
-    1.
-    2.
-    3.
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Model Y"
+    3. jsme přesměrováni na adresu https://www.tesla.com/modely
+    4. test proběhl úspěšně
+
 
 
 TC_005 - kontrola zda se po kliknutí na odkaz "Solar Roof" otevře správná stránka
-    1.
-    2.
-    3:
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Solar Roof"
+    3. jsme přesměrováni na adresu https://www.tesla.com/solar-roof
+    4. test proběhl úspěšně
 
 TC_006 - kontrola zda se po kliknutí na odkaz "Solar Panels" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Solar Panels"
+    3. jsme přesměrováni na adresu https://www.tesla.com/solar-panels
+    4. test proběhl úspěšně
 
 TC_007 - kontrola zda se po kliknutí na odkaz "Existing Inventory" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Menu"
+    3. klikneme na tlačítko "Existing Inventory"
+    4. jsme přesměrováni na adresu https://www.tesla.com/inventory
+    5. test proběhl úspěšně
 
 TC_008 - kontrola zda se po kliknutí na odkaz "Used Inventory" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Menu"
+    3. klikneme na tlačítko "Used Inventory"
+    4. jsme přesměrováni na adresu https://www.tesla.com/used-inventory
+    5. test proběhl úspěšně
 
 TC_009 - kontrola zda se po kliknutí na odkaz "Trade-In" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Menu"
+    3. klikneme na tlačítko "Trade-In"
+    4. jsme přesměrováni na adresu https://www.tesla.com/trade-in
+    5. test proběhl úspěšně
 
 TC_010 - kontrola zda se po kliknutí na odkaz "Test Drive" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Menu"
+    3. klikneme na tlačítko "Test Drive"
+    4. jsme přesměrováni na adresu https://www.tesla.com/drive
+    5. test proběhl úspěšně
 
 TC_011 - kontrola zda se po kliknutí na odkaz "Powerwall" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Menu"
+    3. klikneme na tlačítko "Power Wall"
+    4. jsme přesměrováni na https://www.tesla.com/powerwall
+    5. test proběhl úspěšně
 
 TC_012 - kontrola zda se po kliknutí na odkaz "Commercial Energy" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Menu"
+    3. klikneme na tlačítko "Commercial Energy"
+    4. jsme přesměrováni na https://www.tesla.com/commercial
+    5. test proběhl úspěšně
 
 TC_013 - kontrola zda se po kliknutí na odkaz "Utilities" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Menu"
+    3. klikneme na tlačítko "Utilities"
+    4. jsme přesměrováni na https://www.tesla.com/utilities
+    5. test proběhl úspěšně
 
 TC_014 - kontrola zda se po kliknutí na odkaz "Charging" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Menu"
+    3. klikneme na tlačítko "Charging"
+    4. jsme přesměrováni na https://www.tesla.com/charging
+    5. test proběhl úspěšně
 
 TC_015 - kontrola zda se po kliknutí na odkaz "Find Us" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Menu"
+    3. klikneme na tlačítko "Find Us"
+    4. jsme přesměrováni na https://www.tesla.com/findus?
+    5. test proběhl úspěšně
 
 TC_016 - kontrola zda se po kliknutí na odkaz "Support" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Menu"
+    3. klikneme na tlačítko "Support "
+    4. jsme přesměrováni na https://www.tesla.com/support
+    5. test proběhl úspěšně
 
 TC_017 - kontrola zda se po kliknutí na odkaz "Investor Relations" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Menu"
+    3. klikneme na tlačítko "Investor Relations"
+    4. jsme přesměrováni na https://ir.tesla.com/#tab-quarterly-disclosure
+    5. test proběhl úspěšně
 
 TC_018 - kontrola zda se po kliknutí na odkaz "Shop" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Shop"
+    3. jsme přesměrování na https://shop.tesla.com/
+    4. test proběhl úspěšně
 
 TC_019 - kontrola zda se po kliknutí na odkaz "Account" otevře správná stránka
-    1.
-    2.
-    3.
-
+    1. nacházíme se na webové stránce "https://www.tesla.com"
+    2. klikneme na tlačítko "Account"
+    3. jsme přesměrování na https://auth.tesla.com/
+    4. test proběhl úspěšně
 
