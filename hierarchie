@@ -7,7 +7,6 @@ pass - testThisTesla1234
 
 001 - Testovani webove stranky ( https://www.tesla.com )
     TS_001 - testování navigace pomocí odkazů
-        TS_001 - kontrola funkce základních odkazů
             TC_001 - kontrola zda se po kliknutí na odkaz "Model S" otevře správná stránka
             TC_002 - kontrola zda se po kliknutí na odkaz "Model 3" otevře správná stránka
             TC_003 - kontrola zda se po kliknutí na odkaz "Model X" otevře správná stránka
@@ -27,8 +26,6 @@ pass - testThisTesla1234
             TC_017 - kontrola zda se po kliknutí na odkaz "Investor Relations" otevře správná stránka
             TC_018 - kontrola zda se po kliknutí na odkaz "Shop" otevře správná stránka
             TC_019 - kontrola zda se po kliknutí na odkaz "Account" otevře správná stránka
-            TC_000 - kontrola zda se po kliknutí na odkaz "More" zobrazí další možnosti
-
 
     TS_002 - testování přihlášení a registrace
         TS_002_A
@@ -44,7 +41,6 @@ pass - testThisTesla1234
             TC_003 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 2 znaky
             TC_004 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 16 znaků
             TC_005 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 32 znaků
-
 
     TS_003 - testování navigace v jednotlivých částech menu
         TS_001 - testování konfigurace "Model S"
