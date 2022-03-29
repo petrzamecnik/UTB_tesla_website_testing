@@ -1,110 +1,59 @@
-ID - TS_002
+ID - TS_002_A
 Název - testování přihlášení
 Popis - testujeme přihlášení uživatele do systému a zkontrolujeme, zda se přihlášení podařilo, nebo ne.
 Preconditions
     1. vstupní data:
-        - jméno uživatele
+        - emailovou adresu
         - heslo
     2. přístup k internetu
     3. zařízení pro vložení dat
-    4. nacházíme se na stránce https://www.tesla.com
+    4. nacházíme se na stránce https://auth.tesla.com/oauth2/v1/authorize?redirect_uri=https%3A%2F%2Fwww.tesla.com
+                               %2Fteslaaccount%2Fowner-xp%2Fauth%2Fcallback&response_type=code&client_id=ownership&scope
+                               =offline_access%20openid%20ou_code%20email&audience=https%3A%2F%2Fownership.tesla.com
+                               %2F&locale=en-US
     5. počet pokusů o přihlášení je omezen
 
 
+TC_001 - pokus o přihlášení se správnými přihlašovacími údaji
+    1. vložíme emailovou adresu
+    2. klikneme na tlačítko "next"
+    3. vložíme heslo
+    4. klikneme na tlačítko "sign in"
+    5. přihlášení proběhlo úspěšně
 
-TS_002 - Přihlášení uživatele
-    TS_002_A
-        TC_001 - pokus o přihlášení se správnými přihlašovacími údaji
-            1. vložíme emailovou adresu
-            2. klikneme na tlačítko "next"
-            3. vložíme heslo
-            4. klikneme na tlačítko "sign in"
-            5. přihlášení proběhlo úspěšně
+TC_002 - pokus o přihlášení bez přihlašovacích údajů
+    1. klikneme na tlačítko "next"
+    2. aplikace vypíše hlášku, že požaduje emailovou adresu
+    3. přihlášení se nezdařilo
 
-        TC_002 - pokus o přihlášení bez přihlašovacích údajů
-            1. klikneme na tlačítko "next"
-            2. aplikace vypíše hlášku, že požaduje emailovou adresu
-            3. přihlášení se nezdařilo
+TC_003 - pokus o přihlášení s neplatnými přihlašovacími údaji
+    1. vložíme emailovou adresu
+    2. klikneme na tlačítko "next"
+    3. vložíme neplatné heslo
+    4. klikneme na tlačítko "sign in"
+    5. aplikace vypíše hlášku, že přihlášení se nezdařilo, jelikož kombinace emailu a hesla neexistuje
 
-        TC_003 - pokus o přihlášení s neplatnými přihlašovacími údaji
-            1. vložíme emailovou adresu
-            2. klikneme na tlačítko "next"
-            3. vložíme neplatné heslo
-            4. klikneme na tlačítko "sign in"
-            5. aplikace vypíše hlášku, že přihlášení se nezdařilo, jelikož kombinace emailu a hesla neexistuje
+TC_004 - pokus o několikanásobné přihlášení s neplatnými údaji
+    1. vložíme emailovou adresu
+    2. klikneme na tlačítko "next"
+    3. vložíme neplatné heslo
+    4. klikneme na tlačítko "sign in"
+    5. aplikace vypíše hlášku, že přihlášení se nezdařilo, jelikož kombinace emailu a hesla neexistuje
+    6. vrátíme se na přihlašovací stránku
+    7. přihlášení opakujeme s neplatnými údaji
+    8. přístup k aplikaci je zakázán
 
-        TC_004 - pokus o několikanásobné přihlášení s neplatnými údaji
-            1. vložíme emailovou adresu
-            2. klikneme na tlačítko "next"
-            3. vložíme neplatné heslo
-            4. klikneme na tlačítko "sign in"
-            5. aplikace vypíše hlášku, že přihlášení se nezdařilo, jelikož kombinace emailu a hesla neexistuje
-            6. vrátíme se na přihlašovací stránku
-            7. přihlášení opakujeme s neplatnými údaji
-            8. přístup k aplikaci je zakázán
-
-        TC_005 - kontrola zda po odhlášení a následné vrácení zpět, je uživatel opravdu odhlášen
-            1. vložíme emailovou adresu
-            2. klikneme na tlačítko "next"
-            3. vložíme heslo
-            4. klikneme na tlačítko "sign in"
-            5. přihlášení proběhlo úspěšně
-            6. klikneme na tlačítko "sign out"
-            7. aplikace vypíše hlášku, že uživatel byl odhlášen
-            8. jdeme na přihlašovací stránku
-            9. uživatel je opravdu odhlášen
+TC_005 - kontrola zda po odhlášení a následné vrácení zpět, je uživatel opravdu odhlášen
+    1. vložíme emailovou adresu
+    2. klikneme na tlačítko "next"
+    3. vložíme heslo
+    4. klikneme na tlačítko "sign in"
+    5. přihlášení proběhlo úspěšně
+    6. klikneme na tlačítko "sign out"
+    7. aplikace vypíše hlášku, že uživatel byl odhlášen
+    8. jdeme na přihlašovací stránku
+    9. uživatel je opravdu odhlášen
 
 
-    TS_002_B
-        TC_001 - pokus o registraci bez zadání jména, příjmení, emailu, hesla
-            1. klikneme na tlačítko "Create account"
-            2. aplikace vypíše hlášku, že požaduje jméno, příjmení, emailovou adresu a heslo
 
-        TC_002 - pokus o registraci se správnými přihlašovacími údaji
-            1. zvolíme název státu
-            2. zvolíme anglický jazyk
-            3. vložíme jméno
-            4. vložíme příjmení
-            5. vložíme emailovou adresu
-            6. vložíme heslo
-            7. odklikneme souhlas s podmínkami
-            8 opíšeme kód captcha
-            9. klikneme na tlačítko "Create account"
-            10. registrace proběhla úspěšně
-
-        TC_003 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 2 znaky
-            1. zvolíme název státu
-            2. zvolíme anglický jazyk
-            3. vložíme jméno
-            4. vložíme příjmení
-            5. vložíme emailovou adresu
-            6. vložíme heslo o délce 2 znaků
-            7. odklikneme souhlas s podmínkami
-            8. opíšeme kód captha
-            9. klikneme na tlačítko "Create account"
-            10. aplikace vypíše hlášku, že heslo musí mít délku alespoň 8 znaků
-
-        TC_004 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 16 znaků
-            1. zvolíme název státu
-            2. zvolíme anglický jazyk
-            3. vložíme jméno
-            4. vložíme příjmení
-            5. vložíme emailovou adresu
-            6. vložíme heslo o délce 16 znaků
-            7. odklikneme souhlas s podmínkami
-            8. opíšeme kód captha
-            9. klikneme na tlačítko "Create account"
-            10. registrace proběhla úspěšně
-
-        TC_005 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 32 znaků
-            1. zvolíme název státu
-            2. zvolíme anglický jazyk
-            3. vložíme jméno
-            4. vložíme příjmení
-            5. vložíme emailovou adresu
-            6. vložíme heslo o délce 32 znaků
-            7. odklikneme souhlas s podmínkami
-            8. opíšeme kód captha
-            9. klikneme na tlačítko "Create account"
-            10. registrace proběhla úspěšně
 
