@@ -1,2 +1,48 @@
 ID - TS_003
-Název - testování
+Název - Testování stránky tesla.com/models/
+Popis - Testování funkčnosti jednotlivých částí aplikace tesla.com/models/
+Preconditions
+    1. Připojení k internetu
+    2. Internetový prohlížeč
+    3. Zařízení pro zadání vstupu
+    4. Zařízení pro zobrazení výsledků
+
+
+TC_001 - test, zda funguje tlačítko "Order Now"
+    1. Připojení na stránku tesla.com/models/
+    2. Kliknutí na tlačítko "Order Now"
+    3. Zobrazení stránky tesla.com/models/design#overview
+
+TC_002 - test, zda funguje tlačítko "Compare"
+    1. Připojení na stránku tesla.com/models/
+    2. Kliknutí na tlačítko "Compare"
+    3. Zobrazení stránky tesla.com/compare
+
+TC_003 - test, zda je možné scrollovat na obrázek "Interior of the Future"
+    1. Připojení na stránku tesla.com/models/
+    2. Scrollujeme dokud nenarazíme na fotku "Interior of the Future"
+    3. Fotka "Interior of the Future" se zobrazí
+
+TC_004 - test, zda je možné přepínat mezi powertrainy "Model S" a "Model S Plaid"
+    1. Připojení na stránku tesla.com/models/
+    2. Klikneme na název "Model S Plaid"
+    3. Odstavec s textem "Model S Plaid" se zvýrazní
+    4. Klikneme na název "Model S"
+    5. Odstavec s textem "Model S" se zvýrazní
+
+TC_005 - test, zda funguje tlačítko pro přepínaní specifikací pro "Model S"
+    1. Připojení na stránku tesla.com/models/
+    2. Klikneme na tlačítko "Model S"
+    3. Zobrazí se specifikace pro Tesla Model S
+
+TC_006 - test, zda funguje tlačítko pro přepínaní specifikací pro "Model S Plaid"
+    1. Připojení na stránku tesla.com/models/
+    2. Klikneme na tlačítko "Model S Plaid"
+    3. Zobrazí se specifikace pro Tesla Model S Plaid
+
+TC_007 - test, zda je možné se pomocí loga "TESLA" vrátit na domovskou stránku
+    1. Připojení na stránku tesla.com/models/
+    2. Klikneme na logo "TESLA"
+    3. Zobrazí se domovská stránka tesla.com
+
+

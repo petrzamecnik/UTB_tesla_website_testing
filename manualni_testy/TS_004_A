@@ -1,0 +1,48 @@
+ID - TS_004_A
+Název - Testování tesla.com/compare
+Popis - Testování funkcionalit na stránce tesla.com/compare
+Preconditions
+    1. Připojení k internetu
+    2. Internetový prohlížeč
+    3. Zařízení pro zadání vstupu
+    4. Zařízení pro zobrazení výsledků
+
+
+TC_001 - kontrola, zda se načte fotka "Model S"
+    1. Otevření stránky tesla.com/compare
+    2. Na stránce lze vizualizovat fotku "Model S"
+
+TC_002 - kontrola, zda se načte fotka "Model Y"
+    1. Otevření stránky tesla.com/compare
+    2. Na stránce lze vizualizovat fotku "Model Y"
+
+TC_003 - kontrola, zda je možné rozkliknout rozbalovací menu pod fotkou "Model S"
+    1. Otevření stránky tesla.com/compare
+    2. Klikneme na rozbalovací menu pod fotkou "Model S"
+    3. Zobrazí se nabídka výběru další možností
+
+TC_004 - kontrola, zda lze pomocí tlačítka "Add Model" přidat další auto
+    1. Otevření stránky tesla.com/compare
+    2. Klikneme na tlačítko "Add Model"
+    3. Do porovnání se přidá další auto
+
+TC_005 - kontrola, zda lze pomocí příslušného tlačítka odebrat přidané auto
+    1. Otevření stránky tesla.com/compare
+    2. Myší najedeme na fotku přidaného auta
+    3. Zobrazí se tlačítko pro odebrání auta
+    4. Klikneme na tlačítko pro odebrání auta
+    5. Poslední přidané auto se úspěšně odstraní
+
+TC_006 - kontrola, zda lze pomocí tlačítka "See More" zobrazit pole s více informacemi
+    1. Otevření stránky tesla.com/compare
+    2. Klikneme na tlačítko "See More"
+    3. Zobrazí se pole s více informacemi
+
+TC_007 - kontrola, zda lze pomocí tlačítka "See More" skrýt pole s více informacemi
+    1. Otevření stránky tesla.com/compare
+    2. Klikneme na tlačítko "See More"
+    3. Zobrazí se pole s více informacemi
+    4. Klikneme na tlačítko "See Less"
+    5. Pole s dalšími informacemi se úspěšně skryje
+
+

@@ -7,84 +7,66 @@ pass - testThisTesla1234
 
 001 - Testovani webove stranky ( https://www.tesla.com )
     TS_001 - testování navigace pomocí odkazů
-            TC_001 - kontrola zda se po kliknutí na odkaz "Model S" otevře správná stránka
-            TC_002 - kontrola zda se po kliknutí na odkaz "Model 3" otevře správná stránka
-            TC_003 - kontrola zda se po kliknutí na odkaz "Model X" otevře správná stránka
-            TC_004 - kontrola zda se po kliknutí na odkaz "Model Y" otevře správná stránka
-            TC_005 - kontrola zda se po kliknutí na odkaz "Solar Roof" otevře správná stránka
-            TC_006 - kontrola zda se po kliknutí na odkaz "Solar Panels" otevře správná stránka
-            TC_007 - kontrola zda se po kliknutí na odkaz "Existing Inventory" otevře správná stránka
-            TC_008 - kontrola zda se po kliknutí na odkaz "Used Inventory" otevře správná stránka
-            TC_009 - kontrola zda se po kliknutí na odkaz "Trade-In" otevře správná stránka
-            TC_010 - kontrola zda se po kliknutí na odkaz "Test Drive" otevře správná stránka
-            TC_011 - kontrola zda se po kliknutí na odkaz "Powerwall" otevře správná stránka
-            TC_012 - kontrola zda se po kliknutí na odkaz "Commercial Energy" otevře správná stránka
-            TC_013 - kontrola zda se po kliknutí na odkaz "Utilities" otevře správná stránka
-            TC_014 - kontrola zda se po kliknutí na odkaz "Charging" otevře správná stránka
-            TC_015 - kontrola zda se po kliknutí na odkaz "Find Us" otevře správná stránka
-            TC_016 - kontrola zda se po kliknutí na odkaz "Support" otevře správná stránka
-            TC_017 - kontrola zda se po kliknutí na odkaz "Investor Relations" otevře správná stránka
-            TC_018 - kontrola zda se po kliknutí na odkaz "Shop" otevře správná stránka
-            TC_019 - kontrola zda se po kliknutí na odkaz "Account" otevře správná stránka
+        TC_001 - kontrola zda se po kliknutí na odkaz "Model S" otevře správná stránka
+        TC_002 - kontrola zda se po kliknutí na odkaz "Model 3" otevře správná stránka
+        TC_003 - kontrola zda se po kliknutí na odkaz "Model X" otevře správná stránka
+        TC_004 - kontrola zda se po kliknutí na odkaz "Model Y" otevře správná stránka
+        TC_005 - kontrola zda se po kliknutí na odkaz "Solar Roof" otevře správná stránka
+        TC_006 - kontrola zda se po kliknutí na odkaz "Solar Panels" otevře správná stránka
+        TC_007 - kontrola zda se po kliknutí na odkaz "Existing Inventory" otevře správná stránka
+        TC_008 - kontrola zda se po kliknutí na odkaz "Used Inventory" otevře správná stránka
+        TC_009 - kontrola zda se po kliknutí na odkaz "Trade-In" otevře správná stránka
+        TC_010 - kontrola zda se po kliknutí na odkaz "Test Drive" otevře správná stránka
+        TC_011 - kontrola zda se po kliknutí na odkaz "Powerwall" otevře správná stránka
+        TC_012 - kontrola zda se po kliknutí na odkaz "Commercial Energy" otevře správná stránka
+        TC_013 - kontrola zda se po kliknutí na odkaz "Utilities" otevře správná stránka
+        TC_014 - kontrola zda se po kliknutí na odkaz "Charging" otevře správná stránka
+        TC_015 - kontrola zda se po kliknutí na odkaz "Find Us" otevře správná stránka
+        TC_016 - kontrola zda se po kliknutí na odkaz "Support" otevře správná stránka
+        TC_017 - kontrola zda se po kliknutí na odkaz "Investor Relations" otevře správná stránka
+        TC_018 - kontrola zda se po kliknutí na odkaz "Shop" otevře správná stránka
+        TC_019 - kontrola zda se po kliknutí na odkaz "Account" otevře správná stránka
 
     TS_002 - testování přihlášení a registrace
-        TS_002_A
+        TS_002_A - testování přihlášení
             TC_001 - pokus o přihlášení se správnými přihlašovacími údaji
             TC_002 - pokus o přihlášení bez přihlaśovacích údajů
             TC_003 - pokus o přihlášení s neplatnými přihlašovacími údaji
             TC_004 - několika násobný pokus o přihlášení se špatnými uživatelskými údaji
             TC_005 - kontrola zda po odhlášení a následné vrácení zpět, je uživatel opravdu odhlášen
 
-        TS_002_B
+        TS_002_B - testování registrace
             TC_001 - pokus o registraci bez zadání jména, příjmení, emailu, hesla
             TC_002 - pokus o registraci se zadáním validního jména, příjmení, emailu, hesla
             TC_003 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 2 znaky
             TC_004 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 16 znaků
             TC_005 - pokus o registraci s validním jménem, příjmení, emailem a heslem s délkou 32 znaků
 
-    TS_003 - testování navigace v jednotlivých částech menu
-        TS_001 - testování konfigurace "Model S"
-            TC_001 - přepínání obrázků ( slideshow ) pomocí šipek
-            TC_002 - možnost přepínání mezi modely pomocí tlačítek
-            TC_003 - funkčnost tlačítka "LEARN MORE"
-            TC_004 - funkčnost tlačítka "Order Now"
-            TC_005 - přepínání animací pomocí tlačítek "Navigate on Autopilot", "Auto Lane Change", "Summon", "Autopark"
-        TS_002 - testování konfigurace "Model 3"
-            TC_001 - funkčnost tlačítka "LEARN MORE"
-            TC_002 - funkčnost tlačítka "Order Now"
-            TC_003 - přepínání zobrazení specifikací pomocí tlačítek "Performance", "Long Range AWD", "Rear-Wheel Drive"
-            TC_004 - funkčnost tlačítka "Expand List"
-            TC_005 - funkčnost tlačítka "Compare"
-        TS_003 - testování konfigurace "Model X"
-            TC_001 - přepínání obrázků ( slideshow ) pomocí šipek
-            TC_002 - možnost přepínání mezi modely pomocí tlačítek
-            TC_003 - funkčnost tlačítka "LEARN MORE"
-            TC_004 - funkčnost tlačítka "Order Now"
-            TC_005 - přepínání animací pomocí tlačítek "Navigate on Autopilot", "Auto Lane Change", "Summon", "Autopark"
-        TS_004 - testování konfigurace "Model Y"
-            TC_001 - funkčnost tlačítka "LEARN MORE"
-            TC_002 - funkčnost tlačítka "Order Now"
-            TC_003 - přepínání zobrazení specifikací pomocí tlačítek "Performance" a "Long Range AWD"
-            TC_004 - funkčnost tlačítka "Expand List"
-            TC_005 - funkčnost tlačítka "Compare"
-        TS_005 - testování stránky "Account"
-            TS_001 - kontrola funkčnosti odkazů
-                TC_001 - test funkčnosti odkazu "Dashboard"
-                TC_002 - test funkčnosti odkazu "Profile Settings"
-                TC_003 - test funkčnosti odkazu "Payment Method"
-                TC_004 - test funkčnosti odkazu "Charging"
-                TC_005 - test funkčnosti odkazu "Loot Box"
-                TC_006 - test funkčnosti odkazu "Order History"
-                TC_007 - test funkčnosti odkazu "Sign Out"
-            TS_002 - testování změny uživatelských údajů
+    TS_003 - Testování stránky tesla.com/models/
+        TC_001 - test, zda funguje tlačítko "Order Now"
+        TC_002 - test, zda funguje tlačítko "Compare"
+        TC_003 - test, zda je možné scrollovat na fotku "Interior of the Future"
+        TC_004 - test, zda je možné přepínat mezi powertrainy "Model S" a "Model S Plaid"
+        TC_005 - test, zda funguje tlačítko pro přepínaní specifikací pro "Model S"
+        TC_006 - test, zda funguje tlačítko pro přepínaní specifikací pro "Model S Plaid"
+        TC_007 - test, zda je možné se pomocí loga "TESLA" vrátit na domovskou stránku
+
+    TS_004_A - Testování tesla.com/compare
+        TC_001 - kontrola, zda se načte fotka "Model S"
+        TC_002 - kontrola, zda se načte fotka "Model Y"
+        TC_003 - kontrola, zda je možné rozkliknout rozbalovací menu pod fotkou "Model S"
+        TC_004 - kontrola, zda lze pomocí tlačítka "Add Model" přidat další auto
+        TC_005 - kontrola, zda lze pomocí příslušného tlačítka odebrat přidané auto
+        TC_006 - kontrola, zda lze pomocí tlačítka "See More" zobrazit pole s více informacemi
+        TC_007 - kontrola, zda lze pomocí tlačítka "See More" skrýt pole s více informacemi
 
 
-        TS_006 - testování stránky "Shop"
-            TC_001 -
-            TC_002 -
-            TC_003 -
-            TC_004 -
-            TC_005 -
+
+
+       ??? funkcionalita porovnávání dvou aut
+
+
+
 
 
 
