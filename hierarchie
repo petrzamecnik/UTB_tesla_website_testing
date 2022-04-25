@@ -51,7 +51,7 @@ pass - testThisTesla1234
         TC_006 - test, zda funguje tlačítko pro přepínaní specifikací pro "Model S Plaid"
         TC_007 - test, zda je možné se pomocí loga "TESLA" vrátit na domovskou stránku
 
-    TS_004_A - Testování tesla.com/compare
+    TS_004 - Testování tesla.com/compare
         TC_001 - kontrola, zda se načte fotka "Model S"
         TC_002 - kontrola, zda se načte fotka "Model Y"
         TC_003 - kontrola, zda je možné rozkliknout rozbalovací menu pod fotkou "Model S"
@@ -60,10 +60,23 @@ pass - testThisTesla1234
         TC_006 - kontrola, zda lze pomocí tlačítka "See More" zobrazit pole s více informacemi
         TC_007 - kontrola, zda lze pomocí tlačítka "See More" skrýt pole s více informacemi
 
+    TS_005 - Testování shop.tesla.com
+        TC_001 - test načtení stránky shop.tesla.com
+        TC_002 - test přidání zboží do košíku
+        TC_003 - test, zda při znovu načtení stránky zůstanou položky v košíku
+        TC_004 - test odebrání zboží z košíku
+        TC_005 - test vyhledávání zboží
+        TC_006 - test tlačítka "Shop", zda přesměruje na úvodní stránku obchodu
 
+    TS_006 - Testování tesla.com/careers
+        TC_001 - test funkčnosti odkazu "See Opportunities" na kartě "Manufacturing"
+        TC_002 - test funkčnosti odkazu "See Opportunities" na kartě "Cell Team"
+        TC_003 - test funkčnosti odkazu "See Opportunities" na kartě "Autopilot AI"
+        TC_004 - test funkčnosti tlačítka "VIEW JOBS"
+        TC_005 - test funkčnosti tlačítka "VIEW INTERNSHIPS"
 
-
-       ??? funkcionalita porovnávání dvou aut
+    TS_007 - Testování funkcionalit tesla.com/careers/search
+        
 
 
 
