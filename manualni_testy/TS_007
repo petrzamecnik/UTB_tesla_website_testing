@@ -1,0 +1,59 @@
+ID - TS_006
+Název - Testování tesla.com/careers
+Popis - Testování funkcionalit na stránce tesla.com/careers/search
+Preconditions
+    1. Připojení k internetu
+    2. Internetový prohlížeč
+    3. Zařízení pro zadání vstupu
+    4. Zařízení pro zobrazení výsledků
+
+
+TC_001 - test funkčnosti políčka "Search" pro vyhledávání
+    1. Vstup na stránku "tesla.com/careers"
+    2. Do pole "Seearch" je zadán vstup "engineer"
+    3. Mezi nabídky je úspěšně vyfiltrovaný výsledek, kde je zobrazen název "Engineering"
+
+TC_002 - filtrování pozic pomocí vstupu "Job Category"
+    1. Vstup na stránku "tesla.com/careers"
+    2. V nabídce select pro kategorii "Job Category" zvolíme kategorii "Autopilot & Robotics"
+    3. Mezi nabídky je úspěšně vyfiltrovaný výsledek, kde je kategorie "Autopilot & Robotics"
+
+TC_003 - filtrování pozic pomocí vstupu "Job Type"
+    1. Vstup na stránku "tesla.com/careers"
+    2. V nabídce select pro kategorii "Job Type" zvolíme typ "Part-Time"
+    3. mezi nabídky jsou vyfiltrovány jen ty pozice, které jsou typu "Part-Time"
+
+TC_004 - filtrování pozic pomocí vstupu "Region"
+    1. Vstup na stránku "tesla.com/careers"
+    2. V nabídce select pro kategorii "Region" zvolíme region "Europe"
+    3. Mezi nabídkami jsou úspěšně zobrazeny ty pozice, které se nachází na území Evropy
+
+TC_005 - filtrování pozic pomocí vstupu "Location"
+    1. Vstup na stránku "tesla.com/careers"
+    2. V nabídce select pro kategorii "Location" zvolíme lokaci "Germany"
+    3. Mezi nabídkami jsou úspěšně zobrazeny ty pozice, které se nachází v Německu
+
+TC_006 - filtrování pozic pomocí vstupu "City"
+    1. Vstup na stránku "tesla.com/careers"
+    2. V nabídce select pro kategorii "Location" zvolíme lokaci "Germany"
+    3. V nabídce select pro kategorii "City" zvolíme město "Berlin"
+    4. Mezi nabídkami jsou úspěšně zobrazeny ty pozice, které se nachází v Berlínu
+
+TC_007 - test zda tlačítko "RESET FILTERS" vymaže zadané možnosti
+    1. Vstup na stránku "tesla.com/careers"
+    2. Do pole "Seearch" je zadán vstup "technician"
+    3. V nabídce select pro kategorii "Job Category" zvolíme kategorii "Vehicle Service"
+    4. V nabídce select pro kategorii "Job Type" zvolíme typ "Full-Time"
+    5. V nabídce select pro kategorii "Region" zvolíme region "Europe"
+    6. V nabídce select pro kategorii "Location" zvolíme lokaci "Germany"
+    7. V nabídce select pro kategorii "City" zvolíme město "Berlin"
+    8. Z nabídek vyfiltrována pozice která splňuje všechny zadané možnosti
+    9. Klikneme na tlačítko "RESET FILTERS"
+    10. Po kliknutí na tlačítko se úspěšně smazali zadané údaje
+
+TC_008 - test, zda lze rozkliknout nabídka práce
+    1. Vstup na stránku "tesla.com/careers"
+    2. Klikneme na první odkaz nabídky práce
+    3. Jsme úspěšně přesměrování na stránku s podrobnějším popisem dané pozice
+
+

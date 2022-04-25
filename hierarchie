@@ -77,12 +77,14 @@ pass - testThisTesla1234
 
     TS_007 - Testování vyhledávání pracovních pozic pomocí tesla.com/careers/search
         TC_001 - test funkčnosti políčka "Search" pro vyhledávání
-        TC_002 - volba pomocí "Job Category"
-        TC_003 - volba pomocí "Job Type"
-        TC_004 - volba pomocí "Region"
-        TC_005 - volba pomocí "Location"
-        TC_006 - volba pomocí "City"
+        TC_002 - filtrování pozic pomocí výběru "Job Category"
+        TC_003 - filtrování pozic pomocí výběru "Job Type"
+        TC_004 - filtrování pozic pomocí výběru "Region"
+        TC_005 - filtrování pozic pomocí výběru "Location"
+        TC_006 - filtrování pozic pomocí výběru "City"
         TC_007 - test zda tlačítko "RESET FILTERS" vymaže zadané možnosti
+        TC_008 - test, zda lze rozkliknout nabídka práce
+
         
         
 
