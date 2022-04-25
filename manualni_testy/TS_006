@@ -1,0 +1,36 @@
+ID - TS_006
+Název - Testování tesla.com/careers
+Popis - Testování funkcionalit na stránce tesla.com/careers
+Preconditions
+    1. Připojení k internetu
+    2. Internetový prohlížeč
+    3. Zařízení pro zadání vstupu
+    4. Zařízení pro zobrazení výsledků
+
+
+TC_001 - test funkčnosti odkazu "See Opportunities" na kartě "Manufacturing"
+    1. Vstup na stránku "tesla.com/careers"
+    2. Kliknutí na tlačítko "See Opportunities" na kartě "Manufacturing"
+    3. Úspěšně se zobrazí stránka "tesla.com/manufacturing"
+
+TC_002 - test funkčnosti odkazu "See Opportunities" na kartě "Cell Team"
+    1. Vstup na stránku "tesla.com/careers"
+    2. Kliknutí na tlačítko "See Opportunities" na kartě "Cell Team"
+    3. Úspěšně se zobrazí stránka "tesla.com/cell-jobs"
+
+TC_003 - test funkčnosti odkazu "See Opportunities" na kartě "Autopilot AI"
+    1. Vstup na stránku "tesla.com/careers"
+    2. Kliknutí na tlačítko "See Opportunities" na kartě "Autopilot AI"
+    3. Úspěšně se zobrazí stránka "tesla.com/AI"
+
+TC_004 - test funkčnosti tlačítka "VIEW JOBS"
+    1. Vstup na stránku "tesla.com/careers"
+    2. Kliknutí na tlačítko "VIEW JOBS"
+    3. Úspěšně se zobrazí stránka "tesla.com/careers/search/"
+
+TC_005 - test funkčnosti tlačítka "VIEW INTERNSHIPS"
+    1. Vstup na stránku "tesla.com/careers"
+    2. Kliknutí na tlačítko "VIEW INTERNSHIPS"
+    3. Úspěšně se zobrazí stránka "tesla.com/careers/internships"
+
+

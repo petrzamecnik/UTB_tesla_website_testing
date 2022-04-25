@@ -1,0 +1,67 @@
+ID - TS_005
+Název - Testování shop.tesla.com
+Popis - Testování funkcionality na stránce shop.tesla.com
+Preconditions
+    1. Připojení k internetu
+    2. Internetový prohlížeč
+    3. Zařízení pro zadání vstupu
+    4. Zařízení pro zobrazení výsledků
+
+
+TC_001 - test načtení stránky shop.tesla.com
+    1. Nacházíme se na stránce tesla.com
+    2. Klikneme na Odkaz "Shop"
+    3. Zobrazí se stránka shop.tesla.com
+
+TC_002 - test přidání zboží do košíku
+    1. Vstup na stránku shop.tesla.com
+    2. Scrollujeme dolů, dokud se nezobrazí odkaz "Model S Accessories"
+    3. Klikneme na odkaz "Model S Accessories"
+    4. Klikneme na  první položku nahoře zleva
+    5. Klikneme na tlačítko "ADD TO CART"
+    6. Klikneme na ikonu košíku
+    7. Zvolená položka se zde opravdu nachází
+
+TC_003 - test, zda při znovu načtení stránky zůstanou položky v košíku
+    1. Vstup na stránku shop.tesla.com
+    2. Scrollujeme dolů, dokud se nezobrazí odkaz "Model S Accessories"
+    3. Klikneme na odkaz "Model S Accessories"
+    4. Klikneme na  první položku nahoře zleva
+    5. Klikneme na tlačítko "ADD TO CART"
+    6. Klikneme na ikonu košíku
+    7. Zvolená položka se zde opravdu nachází
+    8. Klikneme na logo "TESLA"
+    9. Jsme přesměrování na úvodní stránku tesla.com
+    10. Klikneme na ikonu košíku
+    11. Položka se zde stále nachází
+
+
+TC_004 - test odebrání zboží z košíku
+    1. Vstup na stránku shop.tesla.com
+    2. Scrollujeme dolů, dokud se nezobrazí odkaz "Model S Accessories"
+    3. Klikneme na odkaz "Model S Accessories"
+    4. Klikneme na  první položku nahoře zleva
+    5. Klikneme na tlačítko "ADD TO CART"
+    6. Klikneme na ikonu košíku
+    7. Klikneme na tlačítko "Remove"
+    8. Klineme na tlačítko "YES, REMOVE"
+    9. Položka byla úspěšně odstraněna
+
+TC_005 - test vyhledávání zboží
+    1. Vstup na stránku shop.tesla.com
+    2. Klikneme na ikonu hledání
+    3. Do vyhledávacího pole vložíme "Wall Connector"
+    4. Stiskneme tlačítko "Enter"
+    5. Zobrazí se stránka s výsledky vyhledávání
+
+TC_006 - test tlačítka "Shop", zda přesměruje na úvodní stránku obchodu
+    1. Vstup na stránku shop.tesla.com
+    2. Klikneme na ikonu košíku
+    3. Klikneme na odkaz "Shop"
+    4. Jsme přesměrování na úvodní stránku tesla.com
+
+
+
+
+
+

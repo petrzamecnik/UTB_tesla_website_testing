@@ -33,8 +33,6 @@ TC_004 - kontrola zda se po kliknutí na odkaz "Model Y" otevře správná strá
     3. jsme přesměrováni na adresu https://www.tesla.com/modely
     4. test proběhl úspěšně
 
-
-
 TC_005 - kontrola zda se po kliknutí na odkaz "Solar Roof" otevře správná stránka
     1. nacházíme se na webové stránce "https://www.tesla.com"
     2. klikneme na tlačítko "Solar Roof"

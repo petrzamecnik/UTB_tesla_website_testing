@@ -38,7 +38,7 @@ TC_006 - kontrola, zda lze pomocí tlačítka "See More" zobrazit pole s více i
     2. Klikneme na tlačítko "See More"
     3. Zobrazí se pole s více informacemi
 
-TC_007 - kontrola, zda lze pomocí tlačítka "See More" skrýt pole s více informacemi
+TC_007 - kontrola, zda lze pomocí tlačítka "See Less" skrýt pole s více informacemi
     1. Otevření stránky tesla.com/compare
     2. Klikneme na tlačítko "See More"
     3. Zobrazí se pole s více informacemi
