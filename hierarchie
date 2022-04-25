@@ -75,7 +75,15 @@ pass - testThisTesla1234
         TC_004 - test funkčnosti tlačítka "VIEW JOBS"
         TC_005 - test funkčnosti tlačítka "VIEW INTERNSHIPS"
 
-    TS_007 - Testování funkcionalit tesla.com/careers/search
+    TS_007 - Testování vyhledávání pracovních pozic pomocí tesla.com/careers/search
+        TC_001 - test funkčnosti políčka "Search" pro vyhledávání
+        TC_002 - volba pomocí "Job Category"
+        TC_003 - volba pomocí "Job Type"
+        TC_004 - volba pomocí "Region"
+        TC_005 - volba pomocí "Location"
+        TC_006 - volba pomocí "City"
+        TC_007 - test zda tlačítko "RESET FILTERS" vymaže zadané možnosti
+        
         
 
 
