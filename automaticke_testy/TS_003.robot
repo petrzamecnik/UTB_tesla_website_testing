@@ -22,42 +22,44 @@ TC_001
     go to  ${url_models}
     wait until element is visible  ${btn_order_now}
     click element  ${btn_order_now} 
-    location ghould be  ${url_models_order}
+    location should be  ${url_models_order}
+    close all browsers
+    
 
 TC_002
     create webdriver  ${browser}
     go to  ${url_models}
     # scroll element into view  ${btn_compare}
-    Execute Javascript  window.scrollTo(0, document.body.scrollHeight);
-    sleep  2
-    Execute Javascript  window.scrollTo(0, document.body.scrollHeight);
+    execute javascript  window.scrollTo(0, document.body.scrollHeight);
+    sleep  3
+    execute javascript  window.scrollTo(0, document.body.scrollHeight);
     scroll element into view  ${btn_compare}
     wait until element is visible  ${btn_compare}
     click element  ${btn_compare}
     location should be  ${url_models_compare}
     close all browsers
 
-TC_003
-    create webdriver  ${browser}
-    go to  ${url_models}
-    scroll element into view  ${text_interior_of_the_future}
-    wait until element is visible  ${text_interior_of_the_future}
-    close all browsers
+# TC_003
+#     create webdriver  ${browser}
+#     go to  ${url_models}
+#     scroll element into view  ${text_interior_of_the_future}
+#     wait until element is visible  ${text_interior_of_the_future}
+#     close all browsers
 
-TC_004
-    create webdriver  ${browser}
-    go to  ${url_models}
-    close all browsers
+# TC_004
+#     create webdriver  ${browser}
+#     go to  ${url_models}
+#     close all browsers
 
-TC_005
-    create webdriver  ${browser}
-    go to  ${url_models}
-    close all browsers
+# TC_005
+#     create webdriver  ${browser}
+#     go to  ${url_models}
+#     close all browsers
 
-TC_006
-    create webdriver  ${browser}
-    go to  ${url_models}
-    close all browsers
+# TC_006
+#     create webdriver  ${browser}
+#     go to  ${url_models}
+#     close all browsers
 
 TC_007
     create webdriver  ${browser}
