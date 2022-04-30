@@ -26,7 +26,6 @@ ${empty_cart_message}  //p[@class='empty-cart-message']
 
 *** Test Cases ***
 TC_001
-    create webdriver with 
     create webdriver  ${browser}
     go to  ${url_root}
     wait until element is visible  ${btn_shop}

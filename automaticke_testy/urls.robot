@@ -13,4 +13,12 @@ ${url_register}  https://auth.tesla.com/oauth2/v1/register?redirect_uri=https%3A
 ${url_shop}  https://shop.tesla.com/
 ${url_shop_noredirect}  https://shop.tesla.com/?redirect=no
 
+${url_careers}  https://www.tesla.com/careers
+${url_careers_search_cz}  https://www.tesla.com/careers/search/?country=CZ
+${url_careers_internships}  https://www.tesla.com/careers/internships
+
+${url_manufacturing}  https://www.tesla.com/manufacturing
+${url_cellteam}  https://www.tesla.com/cell-jobs
+${url_ai}  https://www.tesla.com/AI
+
 #${url_account}  https://
