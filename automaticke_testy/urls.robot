@@ -14,7 +14,9 @@ ${url_shop}  https://shop.tesla.com/
 ${url_shop_noredirect}  https://shop.tesla.com/?redirect=no
 
 ${url_careers}  https://www.tesla.com/careers
+${url_careers_search}  https://www.tesla.com/careers/search/
 ${url_careers_search_cz}  https://www.tesla.com/careers/search/?country=CZ
+${url_careers_search_de}  https://www.tesla.com/careers/search/?country=DE
 ${url_careers_internships}  https://www.tesla.com/careers/internships
 
 ${url_manufacturing}  https://www.tesla.com/manufacturing
