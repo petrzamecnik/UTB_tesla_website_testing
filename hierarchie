@@ -55,10 +55,11 @@ pass - testThisTesla1234
         TC_001 - kontrola, zda se načte fotka "Model S"
         TC_002 - kontrola, zda se načte fotka "Model Y"
         TC_003 - kontrola, zda je možné rozkliknout rozbalovací menu pod fotkou "Model S"
-        TC_004 - kontrola, zda lze pomocí tlačítka "Add Model" přidat další auto
-        TC_005 - kontrola, zda lze pomocí příslušného tlačítka odebrat přidané auto
-        TC_006 - kontrola, zda lze pomocí tlačítka "See More" zobrazit pole s více informacemi
-        TC_007 - kontrola, zda lze pomocí tlačítka "See More" skrýt pole s více informacemi
+        TC_004 - kontrola, zda je možné rozkliknout rozbalovací menu pod fotkou "Model Y"
+        TC_005 - kontrola, zda lze pomocí tlačítka "Add Model" přidat další auto
+        TC_006 - kontrola, zda lze pomocí příslušného tlačítka odebrat přidané auto
+        TC_007 - kontrola, zda lze pomocí tlačítka "See More" zobrazit pole s více informacemi
+        TC_008 - kontrola, zda lze pomocí tlačítka "See Less" skrýt pole s více informacemi
 
     TS_005 - Testování shop.tesla.com
         TC_001 - test načtení stránky shop.tesla.com

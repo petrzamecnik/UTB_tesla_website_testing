@@ -27,7 +27,10 @@ wait and click
     wait until element is visible  ${locator}
     click element  ${locator}
 
-  
+check if element is in view
+    [Arguments]  ${locator}
+    wait until element is visible  ${locator}
+    page should contain element  ${locator}
 
 check redirect
     [Arguments]  @{args}
@@ -46,4 +49,8 @@ check redirect
     wait and click  ${locator}
     location should be  ${expected_url}
 
-
+check if there are n matching elements
+    [Arguments]  ${locator}  ${n}
+    ${number}=  convert to integer  ${n}
+    ${count}=  get element count  ${locator}
+    should be equal  ${number}  ${count}
