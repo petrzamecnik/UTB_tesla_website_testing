@@ -49,6 +49,23 @@ check redirect
     wait and click  ${locator}
     location should be  ${expected_url}
 
+check partial redirect
+    [Arguments]  @{args}
+    [Documentation]  takes 2 or 3 arguments (locator, expected url, starting url <-- optional)
+    ${count}=  get length  ${args}
+    ${locator}=  set variable  ${args}[0]
+    ${expected_url}=  set variable  ${args}[1]
+
+    IF  ${count} == 3
+        ${starting_url}=  set variable  ${args}[2]
+        go to  ${starting_url}
+    END
+
+    set selenium speed  0.3s
+    scroll to element  ${locator}
+    wait and click  ${locator}
+    location should contain  ${expected_url}
+
 check if there are n matching elements
     [Arguments]  ${locator}  ${n}
     ${number}=  convert to integer  ${n}
