@@ -45,7 +45,7 @@ check redirect
     END
 
     set selenium speed  0.3s
-    scroll to element  ${locator}
+    scroll to element  ${locator}  # DO I NEED THIS HERE?
     wait and click  ${locator}
     location should be  ${expected_url}
 
@@ -65,6 +65,23 @@ check partial redirect
     scroll to element  ${locator}
     wait and click  ${locator}
     location should contain  ${expected_url}
+
+click then check redirect
+    [Arguments]  ${locator_1}  ${locator_2}  ${expected_url}
+    wait and click  ${locator_1}
+    wait and click  ${locator_2}
+    location should be  ${expected_url}
+
+click then check partial redirect
+    [Arguments]  ${locator_1}  ${locator_2}  ${expected_url}
+    wait and click  ${locator_1}
+    wait and click  ${locator_2}
+    location should contain  ${expected_url}
+
+create webdriver at
+    [Arguments]  ${webdriver}  ${url}
+    create webdriver  ${webdriver}
+    go to  ${url}
 
 check if there are n matching elements
     [Arguments]  ${locator}  ${n}

@@ -7,6 +7,7 @@ Resource    ${CURDIR}/variables.robot
 Resource    ${CURDIR}/clickable.robot
 
 *** Variables ***
+${btn_menu}  //span[normalize-space()='Menu']
 ${btn_models}  //span[normalize-space()='Model S']
 ${btn_model3}  //span[normalize-space()='Model 3']
 ${btn_modelx}  //span[normalize-space()='Model X']
@@ -14,6 +15,18 @@ ${btn_modely}  //span[normalize-space()='Model Y']
 ${btn_solarroof}  //span[normalize-space()='Solar Roof']
 ${btn_solarpanels}  //span[normalize-space()='Solar Panels']
 ${btn_existinginventory}  //span[normalize-space()='Existing Inventory']
+${btn_usedinventory}  //span[normalize-space()='Used Inventory']
+${btn_tradein}  //span[normalize-space()='Trade-In']
+${btn_testdrive}  //span[normalize-space()='Test Drive']
+${btn_powerwall}  //span[normalize-space()='Powerwall']
+${btn_commercialenergy}  //span[normalize-space()='Commercial Energy']
+${btn_utilities}  //span[normalize-space()='Utilities']
+${btn_charging}  //span[normalize-space()='Charging']
+${btn_findus}  //span[normalize-space()='Find Us']
+${btn_support}  //span[normalize-space()='Support']
+${btn_investorrelations}  //span[normalize-space()='Investor Relations']
+${btn_shop}  //span[normalize-space()='Shop']
+${btn_account}  //span[normalize-space()='Account']
 
 
 
@@ -54,126 +67,68 @@ TC_007
     check partial redirect  ${btn_existinginventory}  ${url_existinginventory}  ${url_root}
     close all browsers
 
+TC_008
+    create webdriver  ${browser}
+    go to  ${url_root}
+    wait and click  ${btn_menu}
+    check partial redirect  ${btn_usedinventory}  ${url_usedinventory}
+    close all browsers
+
+TC_009
+    create webdriver at  ${browser}  ${url_root}
+    click then check redirect  ${btn_menu}  ${btn_tradein}  ${url_tradein}
+    close all browsers
 
 
+TC_010
+    create webdriver at  ${browser}  ${url_root}
+    click then check redirect  ${btn_menu}  ${btn_testdrive}  ${url_testdrive}
+    close all browsers
 
-# TC_007 - kontrola zda se po kliknutí na odkaz "Existing Inventory" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Existing Inventory']
-#     close all browsers
+TC_011
+    create webdriver at  ${browser}  ${url_root}
+    click then check redirect  ${btn_menu}  ${btn_powerwall}  ${url_powerwall}
+    close all browsers
 
+TC_012
+    create webdriver at  ${browser}  ${url_root}
+    click then check redirect  ${btn_menu}  ${btn_commercialenergy}  ${url_commercialenergy}
+    close all browsers
 
+TC_013
+    create webdriver at  ${browser}  ${url_root}
+    click then check redirect  ${btn_menu}  ${btn_utilities}  ${url_utilities}
+    close all browsers
 
-# TC_008 - kontrola zda se po kliknutí na odkaz "Used Inventory" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Menu']
-#     click element   //span[normalize-space()='Used Inventory']
-#     close all browsers
+TC_014
+    create webdriver at  ${browser}  ${url_root}
+    click then check redirect  ${btn_menu}  ${btn_charging}  ${url_charging}
+    close all browsers
 
+TC_015
+    create webdriver at  ${browser}  ${url_root}
+    click then check partial redirect  ${btn_menu}  ${btn_findus}  ${url_findus}
+    close all browsers
 
-# TC_009 - kontrola zda se po kliknutí na odkaz "Trade-In" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Menu']
-#     click element   //span[normalize-space()='Trade-In']
-#     close all browsers
+TC_016
+    create webdriver at  ${browser}  ${url_root}
+    click then check redirect  ${btn_menu}  ${btn_support}  ${url_support}
+    close all browsers
 
+TC_017
+    create webdriver at  ${browser}  ${url_root}
+    click then check partial redirect  ${btn_menu}  ${btn_investorrelations}  ${url_investorrelations}
+    close all browsers
 
-# TC_010 - kontrola zda se po kliknutí na odkaz "Test Drive" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Menu']
-#     click element   //span[normalize-space()='Test Drive']
-#     close all browsers
+TC_018
+    create webdriver at  ${browser}  ${url_root}
+    check redirect  ${btn_shop}  ${url_shop}
+    close all browsers
 
-
-# TC_011 - kontrola zda se po kliknutí na odkaz "Powerwall" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Menu']
-#     click element   //span[normalize-space()='Powerwall']
-#     close all browsers
-
-
-# TC_012 - kontrola zda se po kliknutí na odkaz "Commercial Energy" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Menu']
-#     click element   //span[normalize-space()='Commercial Energy']
-#     close all browsers
-
-
-# TC_013 - kontrola zda se po kliknutí na odkaz "Utilities" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Menu']
-#     click element   //span[normalize-space()='Utilities']
-#     close all browsers
-
-
-# TC_014 - kontrola zda se po kliknutí na odkaz "Charging" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Menu']
-#     click element   //span[normalize-space()='Charging']
-#     close all browsers
-
-
-# TC_015 - kontrola zda se po kliknutí na odkaz "Find Us" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Menu']
-#     click element   //span[normalize-space()='Find Us']
-#     close all browsers
-
-
-# TC_016 - kontrola zda se po kliknutí na odkaz "Support" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Menu']
-#     click element   //span[normalize-space()='Support']
-#     close all browsers
-
-
-# TC_017 - kontrola zda se po kliknutí na odkaz "Investor Relations" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Menu']
-#     click element   //span[normalize-space()='Investor Relations']
-#     close all browsers
-
-
-
-# TC_018 - kontrola zda se po kliknutí na odkaz "Shop" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Shop']
-#     close all browsers
-
-
-# TC_019 - kontrola zda se po kliknutí na odkaz "Account" otevře správná stránka
-#     set selenium speed  0.1
-#     create webdriver    ${ProhlizecChrome}
-#     go to   ${url}
-#     click element   //span[normalize-space()='Account']
-#     close all browsers
-
-
-# TC_020 - test
+TC_019
+    create webdriver at  ${browser}  ${url_root}
+    check partial redirect  ${btn_account}  ${url_account}
+    close all browsers
 
 
 
